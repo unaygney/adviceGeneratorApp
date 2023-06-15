@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/* font-family: 'Manrope', sans-serif; */
+
+/* 
+
+### Primary
+
+- 
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+
+
+## Typography
+
+### Body Copy
+
+- Font size (quote): 28px
+
+*/
+
+:root {
+    --bg-color: hsl(218, 23%, 16%);
+    --title-color: hsl(150, 100%, 66%);
+    --text-color: hsl(193, 38%, 86%);
+    --box-color: hsl(217, 19%, 24%);
+
+}
+
+/* reset */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Main container */
+.container {
+    background-color: var(--box-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    max-width: 500px;
+    border-radius: 18px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 28px;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    color: var(--title-color);
+    margin: 1rem 0;
+    letter-spacing: 2.2px;
+    font-size: 13px;
+}
+
+.line {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: var(--title-color);
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    scale: 0.98;
+}
+
+/* Breakpoint for mobile */
+
+@media (max-width:478px) {
+    .container {
+        width: 360px;
+        margin: 0 .5rem;
+    }
+}
