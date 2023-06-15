@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-B6BTvyi0AJ)
+- [Live site URL here](https://unaygney.github.io/adviceGeneratorApp/)
 
 ## My process
 
